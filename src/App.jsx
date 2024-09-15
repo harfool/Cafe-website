@@ -1,10 +1,10 @@
-import NavBar from "./Components/Navbar"
+import Navbar from "./Components/Navbar/Navbar";
 
 export default function App() {
   return (
 
     <>
-   <NavBar/>
+   <Navbar/>
 
     </>
   )
