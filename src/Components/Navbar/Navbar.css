@@ -1,0 +1,81 @@
+.Navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.2em 0;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    box-shadow: 2px 5px 10px rgba(64, 92, 108, 0.174);
+    height: 10vh;
+
+}
+
+.logo {
+    height: 9vh;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 1.3em;
+    justify-content: space-around;
+    list-style: none;
+    color: rgba(34, 34, 137, 0.866);
+    cursor: pointer;
+    font-size: 1.4em;
+    transition: 0.8;
+}
+
+.nav-menu li:hover {
+    /* text-decoration: underline; */
+    color: rgba(180, 160, 50, 0.866);
+
+}
+
+
+.navbar-right {
+    display: flex;
+    gap: 1.5em;
+    align-items: center;
+
+}
+
+.signUp-btn {
+    background: transparent;
+    border: 1px solid rgba(15, 30, 77, 0.862);
+    color: rgba(34, 34, 137, 0.866);
+    font-size: 1em;
+    padding: 0.6em .8em;
+    border-radius: 2.7em;
+    cursor: pointer;
+    transition: 0.4;
+
+}
+
+.signUp-btn:hover {
+    background-color: aqua;
+}
+
+.active {
+    color: wheat;
+    background: rgba(166, 166, 247, 0.938);
+    border-radius: 1.7em;
+    padding: 0.2em .4em;
+}
+
+.nav-search-icon {
+    position: relative;
+}
+
+.nav-search-icon .dot {
+    position: absolute;
+    min-width: .5em;
+    min-height: .5em;
+    background: rgb(177, 11, 11);
+    border-radius: .9em;
+    top: -.1em;
+    right: -.1em;
+}
+
+.icon {
+    height: 4vh;
+    width: 4vw;
+}
