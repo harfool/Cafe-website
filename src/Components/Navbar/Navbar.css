@@ -80,3 +80,15 @@
     height: 4vh;
     width: 4vw;
 }
+
+@media screen and (max-width: 900px) {  
+    .nav-menu {
+        display: none;
+    }
+}   
+
+@media screen and (max-width: 600px) {
+    .logo {
+        width: 30vw;
+    }
+}
