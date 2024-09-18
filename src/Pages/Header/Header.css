@@ -1,6 +1,6 @@
 .Header{
-    background: url(../../assets/header2.jpg);
-    filter: brightness(.5);
+    background: url(../../assets/header_img.png);
+    /* filter: brightness(.5); */
     /* filter: drop-shadow(2px 4px 6px black); */
     background-size: cover;
     background-repeat: no-repeat;
