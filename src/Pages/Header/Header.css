@@ -1,7 +1,7 @@
 .Header{
     background: url(../../assets/header_img.png);
     /* filter: brightness(.5); */
-    /* filter: drop-shadow(2px 4px 6px black); */
+    filter: drop-shadow(2px 4px 6px black);
     background-size: cover;
     background-repeat: no-repeat;
     height: 35vw;
@@ -16,7 +16,7 @@
     align-items: center;
     gap: 1.5vw;
     max-width: 50%;
-    bottom: 10%;
+    bottom: 20%;
     left: 2vw;
     font-size: 1.2em;
     font-weight: bold;
@@ -35,11 +35,14 @@
     text-shadow: 2px 4px 6px black;
     font-size: 1.2vw;
 }
-.header-content button{
-    background-color: rgb(180, 160, 50);
-    color: rgba(255, 255, 255, 0.774);
+.header-btn{
+    position: absolute;
+    bottom: 3%;
+    left: 2vw;
+    background-color: rgb(224, 255, 253);
+    color: rgba(237, 149, 7, 0.774);
     border: none;
-    border-radius: 3em;
+    border-radius: 2.7em;
     padding: 1vw 2.3vw;
     cursor: pointer;
     font-weight: bold;
@@ -50,6 +53,11 @@
     animation-fill-mode: forwards;
     margin: 1em 0;
     margin-right: 1.5em;
+}
+.header-btn:hover{
+    background-color: rgb(237, 149, 7);
+    color: white;
+    animation: fadeIn 1s;
 }
 
 @media (max-width: 600px){ 
