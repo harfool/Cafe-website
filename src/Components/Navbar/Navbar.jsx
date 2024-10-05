@@ -4,7 +4,7 @@ import assets from '../../assets/Assets';
 import { SlBasket } from "react-icons/sl";
 import { TbShoppingBagSearch } from "react-icons/tb";
 const Navbar = () => {
-  const [Menu, setMenu] = useState('menu');
+  const [Menu, setMenu] = useState('home');
 
   return (
     <div className="Navbar">

@@ -1,7 +1,7 @@
 .Header{
     background: url(../../assets/header_img.png);
-    /* filter: brightness(.5); */
-    filter: drop-shadow(2px 4px 6px black);
+    filter: brightness(.5);
+    /* filter: drop-shadow(2px 4px 6px black); */
     background-size: cover;
     background-repeat: no-repeat;
     height: 35vw;
@@ -68,6 +68,11 @@
         left: 5vw;
         bottom: 5%;
     }
+    .header-btn{
+        left: 5vw;
+        font-size: 2vw;
+    }
+
 }
 
 @media (max-width: 480px){
