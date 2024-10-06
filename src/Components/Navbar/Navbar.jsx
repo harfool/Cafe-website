@@ -36,7 +36,7 @@ const Navbar = () => {
           className={Menu === 'AboutUs' ? 'active' : ''}
           key="AboutUs"
         >
-          About Us (restorent)
+          About Us (cafe)
         </li>
       </ul>
       <div className="navbar-right">
